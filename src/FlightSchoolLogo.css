@@ -1,0 +1,37 @@
+.flight-school-logo {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .logo-icon {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .logo-text {
+    color: #FFFDF7;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  
+  @media (max-width: 768px) {
+    .flight-school-logo {
+      top: 1rem;
+      left: 1rem;
+    }
+    
+    .logo-icon {
+      width: 30px;
+      height: 30px;
+    }
+    
+    .logo-text {
+      font-size: 1rem;
+    }
+  }
